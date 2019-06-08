@@ -125,3 +125,9 @@ Button(action: { }) {
 }
 
 ```
+
+## Reference
+
+[SwiftUI Doc](https://developer.apple.com/documentation/swiftui)
+
+[wwdc2019 SwiftUI Essentials](https://developer.apple.com/videos/play/wwdc2019/216)
