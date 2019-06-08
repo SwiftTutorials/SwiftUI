@@ -1,13 +1,15 @@
 # SwiftUI
 
-##Text
+## Text
+
 ```swift
 Text("Text")
     .font(.subheadline)
     .foregroundColor(.secondary)
 
 ```
-##ForEach
+
+## ForEach
 
 ```swift
 ForEach([0, 1, 2, 3]) { index in
@@ -15,7 +17,7 @@ ForEach([0, 1, 2, 3]) { index in
 }
 ```
 
-##if
+## if
 
 ```swift
 if true {
@@ -25,10 +27,13 @@ if true {
 }
 ```
 
-##VStack
-##HStack
-##ZStack
-##List
+## VStack
+
+## HStack
+
+## ZStack
+
+## List
 
 ```swift
   List([0, 1, 2]) { index in
@@ -36,7 +41,7 @@ if true {
 }
 ```
 
-##Section
+## Section
 
 ```swift
 Section {
