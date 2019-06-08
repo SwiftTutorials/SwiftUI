@@ -72,7 +72,7 @@ ZStack() {
 ```
 
 ## Section
-
+An affordance for creating hierarchical view content.
 ```swift
 Section {
     Text("I am in a Section")
