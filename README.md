@@ -31,13 +31,35 @@ if true {
 
 A view that arranges its children in a vertical line.
 
+```swift
+VStack() {
+    Text("Hello World")
+    Text("Hello VStack")
+}
+```
+
 ## HStack
 
 A view that arranges its children in a horizontal line.
 
+
+```swift
+HStack() {
+    Text("Hello World")
+    Text("Hello HStack")
+}
+```
+
 ## ZStack
 
 A view that overlays its children, aligning them in both axes.
+
+```swift
+ZStack() {
+    Text("Hello World")
+    Text("Hello ZStack")
+}
+```
 
 ## List
 
