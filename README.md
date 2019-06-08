@@ -57,3 +57,36 @@ Section {
 }
 
 ```
+
+## Stepper
+
+A control used to perform semantic increment and decrement actions.
+```swift
+struct FooView : View {
+    @State var toggle: Bool
+    
+    var body: some View {
+        
+        Toggle(isOn: $toggle) {
+            Text("$toggle")
+        }
+    }
+}
+
+```
+
+## Stepper
+
+A control used to perform semantic increment and decrement actions.
+```swift
+struct BarView : View {
+    @State var stepper: Int
+    
+    var body: some View {
+        Stepper(value:$stepper, in: 1...10) {
+            Text("stepper")
+        }
+    }
+}
+
+```
