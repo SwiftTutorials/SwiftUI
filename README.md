@@ -58,9 +58,10 @@ Section {
 
 ```
 
-## Stepper
+## Toggle
 
-A control used to perform semantic increment and decrement actions.
+A control that toggles between on and off states.
+
 ```swift
 struct FooView : View {
     @State var toggle: Bool
@@ -87,6 +88,18 @@ struct BarView : View {
             Text("stepper")
         }
     }
+}
+
+```
+
+## Button
+
+A control that performs an action when triggered.
+
+```swift
+Button(action: { }) {
+    Image("foo")
+    Text("Button")
 }
 
 ```
