@@ -29,11 +29,19 @@ if true {
 
 ## VStack
 
+A view that arranges its children in a vertical line.
+
 ## HStack
+
+A view that arranges its children in a horizontal line.
 
 ## ZStack
 
+A view that overlays its children, aligning them in both axes.
+
 ## List
+
+ A container that presents rows of data arranged in a single column.
 
 ```swift
   List([0, 1, 2]) { index in
